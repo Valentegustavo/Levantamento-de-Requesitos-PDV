@@ -10,7 +10,7 @@
 
 **Clientes:** necessita de cadastro
 
-**Mercado:** Controle de Estoque, Controle de Mercadorias,fornecedores
+**Mercado:** Controle de Estoque, Homologação de Cupom Fiscal, Quantos funcionarios, Relatório de Vendas, Relatório de Estoque, Integração com Filial;
 
        
        
@@ -18,13 +18,14 @@
  
  ![lista-de-compras](https://user-images.githubusercontent.com/100883653/157128642-145298c3-3f24-4c15-835b-3f947ef1d99d.png)
  
-                      1.Deverá ser feito o Controle de Esqtoque?                                          
+                      1. Deverá ser feito o Controle de Esqtoque?                                          
                       2. Deverá ser feita a homologção  de vendas com cupom fiscal? 
                       3. Quantos funcionários existem na Empresa?                      
                       4. Existe a necessidade da realizar de Relatórios de Vendas?           
                       5. Existe a necessidade da realizar de Relatórios de Estoque?
                       6. Deverá ser feita a integração com a Filial? 
 
-
-        
+- [] Aguadando resposta do cliente
+- [] Montagem do Fluxo-Grama do Mercadinho - Brmodelo
+- [] Apresentação      
 
