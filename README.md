@@ -14,7 +14,9 @@
 
        
        
-  ![conta (1)](https://user-images.githubusercontent.com/100883653/157127683-7a1e4e41-10b4-43b7-9392-ea7943703d32.png) **Perguntas relacionadas à estrutura do Mercadinho  Tudo Tem**
+ # **Perguntas relacionadas à estrutura do Mercadinho  Tudo Tem**
+ 
+ ![lista-de-compras](https://user-images.githubusercontent.com/100883653/157128642-145298c3-3f24-4c15-835b-3f947ef1d99d.png) 
   
                       1.Deverá ser feito o Controle de Esqtoque? 
                                                       
