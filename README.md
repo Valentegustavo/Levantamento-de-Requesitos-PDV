@@ -26,6 +26,6 @@
                       6. Deverá ser feita a integração com a Filial? 
 
 - [] Aguadando resposta do cliente
-- [] Montagem do Fluxo-Grama do Mercadinho - Brmodelo
-- [] Apresentação      
+- [] Montagem do Fluxograma do Mercadinho - Brmodelo
+- [] Apresentação Final      
 
