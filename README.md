@@ -6,7 +6,7 @@
 ![mercado](https://user-images.githubusercontent.com/100883653/157127258-3794982d-6672-4563-be21-bc7e60fefa1c.png)
  ![whatsapp](https://user-images.githubusercontent.com/100883653/157126616-39b1a1d3-67a8-4ea2-a38b-d353b7945333.png) **(92) 3584-7575**
 
- ### **_/Projeto e Perguntas/_**
+ ### **_//POJETO E PERGUNTAS//_**
 
 **Clientes:** necessita de cadastro
 
