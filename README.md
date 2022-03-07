@@ -9,7 +9,7 @@ Clientes: necessita de cadastro
 
 Mercado: Controle de Estoque, Controle de Mercadorias,fornecedores
 
-Perguntas relacionada a estrutura do Mercadinho
+Perguntas relacionadas à estrutura do Mercadinho  Tudo Tem
            
            1) Deverá ser feito o Controle de Esqtoque?
 
