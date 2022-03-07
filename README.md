@@ -18,9 +18,11 @@
 
            3. Quantos funcionários existem na Empresa?
 
-           4. Exite a necessidade da rwalização de Relatórios de Vendas e de Estoque??
+           4. Existe a necessidade da realizar de Relatórios de Vendas?
+           
+           5. Existe a necessidade da realizar de Relatórios de Estoque?
 
-           5. Deverá ser feita a integração com a Filial? 
+           6. Deverá ser feita a integração com a Filial? 
 
 
         
