@@ -1,0 +1,68 @@
+-- Criação do Banco de Dados
+CREATE DATABASE pdv_mercadinho;
+USE pdv_mercadinho;
+
+-- Tabela CATEGORIA
+CREATE TABLE CATEGORIA (
+    cod_categoria INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL
+);
+
+-- Tabela PRODUTO
+CREATE TABLE PRODUTO (
+    cod_produto INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT,
+    preco_unitario DECIMAL(10,2) NOT NULL,
+    quantidade_estoque INT DEFAULT 0,
+    cod_categoria INT,
+    FOREIGN KEY (cod_categoria) REFERENCES CATEGORIA(cod_categoria)
+);
+
+-- Tabela CLIENTE
+CREATE TABLE CLIENTE (
+    cod_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    telefone VARCHAR(20)
+);
+
+-- Tabela FUNCIONARIO
+CREATE TABLE FUNCIONARIO (
+    cod_funcionario INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    cargo VARCHAR(50)
+);
+
+-- Tabela VENDA
+CREATE TABLE VENDA (
+    cod_venda INT PRIMARY KEY AUTO_INCREMENT,
+    data_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
+    valor_total DECIMAL(10,2) NOT NULL,
+    cod_cliente INT,
+    cod_funcionario INT NOT NULL,
+    FOREIGN KEY (cod_cliente) REFERENCES CLIENTE(cod_cliente),
+    FOREIGN KEY (cod_funcionario) REFERENCES FUNCIONARIO(cod_funcionario)
+);
+
+-- Tabela ITEM_VENDA
+CREATE TABLE ITEM_VENDA (
+    cod_item INT PRIMARY KEY AUTO_INCREMENT,
+    quantidade INT NOT NULL,
+    preco_unitario DECIMAL(10,2) NOT NULL,
+    cod_venda INT NOT NULL,
+    cod_produto INT NOT NULL,
+    FOREIGN KEY (cod_venda) REFERENCES VENDA(cod_venda),
+    FOREIGN KEY (cod_produto) REFERENCES PRODUTO(cod_produto)
+);
+
+-- Tabela CUPOM_FISCAL (Opcional)
+CREATE TABLE CUPOM_FISCAL (
+    cod_cupom INT PRIMARY KEY AUTO_INCREMENT,
+    numero VARCHAR(20) NOT NULL,
+    serie VARCHAR(10) NOT NULL,
+    chave_acesso VARCHAR(50) UNIQUE,
+    cod_venda INT NOT NULL,
+    FOREIGN KEY (cod_venda) REFERENCES VENDA(cod_venda)
+);
