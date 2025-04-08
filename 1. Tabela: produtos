@@ -1,0 +1,14 @@
+CREATE TABLE produtos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    codigo_barras VARCHAR(50) UNIQUE,
+    descricao TEXT,
+    preco_custo DECIMAL(10,2),
+    preco_venda DECIMAL(10,2),
+    estoque_atual INT DEFAULT 0,
+    estoque_minimo INT DEFAULT 0,
+    validade DATE,
+    categoria_id INT,
+    ativo BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (categoria_id) REFERENCES categorias(id)
+);
